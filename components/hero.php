@@ -12,7 +12,7 @@
         <div class="header-hero-image_details">
             <h1>Hello yall</h1>
             <p>Lorem ipsum dolor sit amet.</p>
-            <button>COOL</button>
+            <button class="btn-hero">order now</button>
         </div>
     </div>
     <?php

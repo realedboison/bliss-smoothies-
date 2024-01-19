@@ -1,7 +1,7 @@
 <!-- <div class="header-container"> -->
 <nav class="header-wrapper">
    <div class="header-logo">
-        <span>SA</span>
+        <span>bliss.</span>
     </div>
     <div class="header-links">
         <ul>
@@ -31,37 +31,62 @@
 </div>
 
 <div class="mobile-menu">
-        <div class="mobile-menu--wrapper">
+    <div class="mobile-menu--wrapper">
         <ul>
             <li><a href="home.php">Home</a></li>
             <li><a href="products.php">Products</a></li>
             <li><a href="contact.php">Contact Us</a></li>
         </ul>
+
+        <div class="profile">
+                <div class="btn">
+                    login
+                </div>
+                <div class="btn">
+                    register
+                </div>
+        </div>
+
         <div>
             <form action="">
                 <div class="form-item-wrapper">
-                    <label for="">Search</label>
-                    <input type="text" name="search">
+                    <!-- <label for="">Search</label> -->
+                    <input type="text" name="search" placeholder="search product">
                 </div>
             </form>
-            <div class="search-output">
 
-            <div class="search-output--wrapper">
-                <div class="search-output--details">
-                    <h5 class="search-output--header"></h5>
-                    <p class="search-output--paragraph"></p>
+            <div class="search">
+                <div class="search-output--wrapper">
+                    <div class="search-output--details">
+                        <h5 class="search-output--header">Lorem, ipsum.</h5>
+                        <small class="search-output--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eaque distinctio sint!</small>
+                    </div>    
+
+                    <div>
+                    <?php
+                    $imageDirectory = 'img/';
+                    $searchImage = 'mix-two.jpg';
+                    echo '<img src="' . $imageDirectory . $searchImage . '" alt="bliss smoothie" class="search-output--image">';
+                    ?> 
+                    </div>  
+
+                
                 </div>
-                <div class="search-output--image"></div>
-
-
+            <!-- <div> -->
+                <div class="search-output--btns">
+                        <button class="btn-sm">add to cart</button>
+                        <button class="btn-sm">view product</button>
+                </div>
             </div>
+            <!-- </div> -->
+           
                 <!-- <p>name:</p>
                 <p>item:</p>
                 <p>description:</p>
                 <p>image:</p> -->
-            </div>
+            
         </div>
-        </div>
+    </div>
 </div>
 
 
