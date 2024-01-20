@@ -10,8 +10,8 @@
 <div class="header-hero-image">
     <div class="overlay">
         <div class="header-hero-image_details">
-            <h1>Hello yall</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <h1>bliss smoothies</h1>
+            <p>blend the bliss, sip the goodness</p>
             <button class="btn-hero">order now</button>
         </div>
     </div>
