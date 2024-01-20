@@ -112,7 +112,6 @@
         </svg> -->
         
         <ion-icon name="people-outline"></ion-icon>
-    
         </div>
         <a href="" class="section-header">
             kid bliss
