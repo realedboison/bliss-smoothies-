@@ -11,8 +11,7 @@
 
 
 <?php include './components/header.php';?>
-    <div class="main">
-       
+    <div class="main">      
     <!-- SECTION -->
     <div class="section-wrapper">
     <div class="section-box">
@@ -142,21 +141,22 @@
 
       <!-- FOOTER -->
       <div class="footer">
-        <div class="main out">
+        <div class="main">
             <!-- <div class="footer-logo outline"> -->
             <?php
             $imageDirectory = 'img/';
             $logoImage = 'bliss-logo.png';
             echo '<img src="' . $imageDirectory . $logoImage . '" alt="bliss smoothie logo" class="footer-logo-img">';
-        ?>  
+            ?>  
             <!-- </div> -->
-            <div class="footer-business out">
+            <div class="footer">
+            <!-- id="footer-heading" -->
                 <h3>Business</h3>
                 <div>
                     <p class="footer-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores consequuntur numquam illum saepe dignissimos!</p>
                 </div>
             </div>
-                <div class="footer-support outl">
+                <div class="footer">
                 <h3>Support</h3>
                 <div>
                     <p class="footer-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, id?.</p>
@@ -164,7 +164,7 @@
                     <a href="#" class="footer-paragraph email">support@bliss.com</a>
                 </div>
             </div>
-            <div class="footer-links out">
+            <div class="footer-links">
                 <div class="inner-out">
                 <div>
                     <a href="">home</a>

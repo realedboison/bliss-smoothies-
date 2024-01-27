@@ -12,7 +12,8 @@
         <div class="header-hero-image_details">
             <h1>bliss smoothies</h1>
             <p>blend the bliss, sip the goodness</p>
-            <button class="btn-hero">order now</button>
+            <button class="btn-hero"><a href="pages/products.php
+            ">order now</a></button>
         </div>
     </div>
     <?php
@@ -20,6 +21,7 @@
      $heroImage = 'hero-blurred.png';
     echo '<img src="' . $imageDirectory . $heroImage . '" alt="Hero Image" >';
     ?>
+    
 </div>
 
 </body>
