@@ -48,7 +48,7 @@ font-family: 'Poppins', sans-serif;
 
 html {font-size: 100%;} /* 16px */
 
-p {font-size: 1.2rem;}
+p {font-size: 1.1rem;}
 h1 {font-size: 3rem; /* 67.36px */}
 h2 {font-size: 2rem; /* 50.56px */}
 h3 {font-size: 2rem; /* 37.92px */}
@@ -779,6 +779,12 @@ img {
     text-align: center;
     margin-block: 1.2rem;
 }
+.profile-name-pro {
+    font-size: 1rem;
+    color: var(--secondary);
+    text-align: center;
+    margin-block: 1.2rem;
+}
 
 .profile-btns-sm {
     display: flex;
@@ -791,7 +797,102 @@ img {
     font-weight: bold;
 }
 
-/* ----------------------- media screen ------------*/
+/* PROFILE PAGE ---------------------------------- */
+
+
+.profile-wrapper-pro {
+    display: grid;
+    grid-template-columns: minmax(20rem, auto) 1fr; 
+    margin-top: 50px;
+    /* gap: 1.5rem; */
+    gap: 2rem;
+
+    /* outline: 3px solid rgb(255, 183, 0); */
+}
+
+
+.profile-menu-pro {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 4rem;
+    align-items: center;
+    border-right: 1px solid var(--mid-gray);
+    position: sticky;
+    height: 84vh; 
+    top: 85px;
+    /* max-height: 100vh;  */
+    
+    /* outline: 3px solid rgb(255, 0, 153);  */
+}
+
+
+.profile-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-links li a {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+  line-height: 1.8;
+}
+
+.profile-links li a:hover {
+    color: var(--dark-gray);
+}
+
+.profile-details {
+    /* outline: 3px solid rgb(8, 0, 255);  */
+    padding: 1rem;
+}
+
+.profile-details h4 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--mid-gray);
+}
+
+.change-password {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--blue-washed);
+    font-style: italic;
+    font-size: 0.8rem;
+    color: var(--dark-gray);
+}
+
+.formx {
+    
+    /* outline: 3px solid rgb(8, 0, 255);  */
+}
+
+
+/* orders ---------- */
+
+.orders {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* profile details */
+/* .profile-details .profile-pro .register-form-wrapper {
+    overflow-y: scroll;
+} */
+
+
+/* .sidebar { */
+    /* width: 200px; */
+    /* position: sticky; */
+    /* top: 0; */
+    /* max-height: 100vh;  */
+    /* overflow-y: auto;  */
+/* } */
+
+
+/* ----------------------- media screen -------------------*/
 
 @media(max-width: 991px) {
     .menu-btn {
@@ -868,7 +969,7 @@ img {
         border-top: 1px solid var(--border-color); 
     }
 
-       /* SEARCH   */
+       /* SEARCH  ---------------------------- */
     form .form-item-wrapper input {
         width: 100%;
         padding: 10px;
@@ -928,7 +1029,7 @@ img {
         justify-content: space-around;
     } 
 
-    /* SERVICES */
+    /* SERVICES ------------------------------- */
 
     .services-wrapper {
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -946,6 +1047,12 @@ img {
      
         
     
+    }
+
+    /* PROFILE -------------------- */
+
+    .profile-wrapper-pro {
+        grid-template-columns: 1fr; /* Stack on smaller screens */
     }
 }
 
